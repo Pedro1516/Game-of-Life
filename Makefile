@@ -45,6 +45,8 @@ endif
 
 # Bibliotecas
 LDLIBS := $(shell $(PKG_CONFIG) --libs raylib)
+LDLIBS += -lm
+
 
 
 # ----------------------------------------------------------
