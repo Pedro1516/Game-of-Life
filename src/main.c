@@ -91,7 +91,7 @@ int main()
 
         DrawText("Press SPACE to pause", 18, height - 90, 18, (Color){200, 200, 200, 255});
         DrawText("Press UP to increase the game speed and DOWN to decrease it", 18, height - 60, 18, (Color){200, 200, 200, 255});
-        DrawText("Hold LEFT CTRL to move the camera", 18, height - 30, 18, (Color){200, 200, 200, 255});
+        DrawText("Hold LEFT CTRL and left click to move the camera ", 18, height - 30, 18, (Color){200, 200, 200, 255});
         DrawText(TextFormat("Speed: %dx", speed), width - MeasureText(TextFormat("Speed: %dx", speed), 20) - 10, 20, 20, WHITE);
         if (estado == PAUSED)
             DrawText("PAUSED", width - MeasureText("PAUSED", 20) - 10, 50, 20, WHITE);
